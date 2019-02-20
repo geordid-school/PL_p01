@@ -1,3 +1,15 @@
+# Author 1:    George Dosher                                           
+# Student ID:  *20431693
+# E-Mail:      gdosher@uco.edu
+# Author 2:    Jon Hyde 
+# Student ID:  *20450725
+# E-mail:      jhyde4@uco.edu	                                        
+# Course:      CMSC 4023 - Programming Languages
+# CRN:         22057
+# Project:     p01
+# Due:         February 20, 2019 
+# Account:     tt073
+#----------------------------------------------------------------------
 #----------------------------------------------------------------------
 # File make creates a subset Pascal Scanner 
 #----------------------------------------------------------------------
@@ -25,3 +37,4 @@ p01lex.cpp:	p01lex.l p01lex.h
 #----------------------------------------------------------------------
 p01lex.o:	p01lex.cpp p01lex.h
 	g++ -c -g p01lex.cpp
+
